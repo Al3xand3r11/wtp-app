@@ -1,7 +1,17 @@
+import Contact from "./Contact";
+import Members from "./Members";
+import NavBar from "./NavBar";
+import Content from "./Content";
+import { homeContainer } from "../Styles/Home-styled";
+
 const Home = () => {
     return(
         <>
-            <h1>Hi</h1>
+          <homeContainer/>
+          <NavBar/>
+          <Content/>
+          <Members/> 
+          <Contact/> 
         </>
     );
 };
