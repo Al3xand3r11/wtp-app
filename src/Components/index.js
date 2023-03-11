@@ -1,10 +1,12 @@
 
 import { HomeContainer } from "./Home-styled";
+import NavBar from "./NavBar";
 
 const Home = () => {
     return(
         <>
-           <HomeContainer></HomeContainer>
+           <NavBar/>
+           <HomeContainer/>
         </>
     );
 };
