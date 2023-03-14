@@ -2,6 +2,11 @@ import styled from "styled-components";
 import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
+export const HomeContainer = styled.section`
+padding: 4em;
+background-color: black;
+`;
+
 export const Nav = styled.nav`
   background: ${({ scrollNav }) => (scrollNav ? "#000" : "transparent")};
   height: 80px;
