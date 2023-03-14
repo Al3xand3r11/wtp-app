@@ -1,5 +1,5 @@
 
-import { HomeContainer } from "./Home-styled";
+import { HomeContainer } from "./NavBar/NavBar-Styled";
 import NavBar from "./NavBar";
 
 const Home = () => {
