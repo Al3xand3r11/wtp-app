@@ -3,7 +3,7 @@ import { Link as LinkR } from "react-router-dom";
 import { Link as LinkS } from "react-scroll";
 
 export const HomeContainer = styled.section`
-padding: 4em;
+padding: 3em;
 background-color: black;
 `;
 
@@ -27,7 +27,7 @@ export const Nav = styled.nav`
 export const NavBarContainer = styled.div`
   display: flex;
   justify-content: space-between;
-  height: 80px;
+  height: 60px;
   z-index: 1;
   width: 100%;
   padding: 0 24px;
