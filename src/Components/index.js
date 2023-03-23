@@ -1,14 +1,14 @@
-
-import { HomeContainer } from "./NavBar/NavBar-Styled";
 import NavBar from "./NavBar";
 import Content from "./Content";
-
+import Members from "./Members";
+import Contact from "./Contact";
 const Home = () => {
     return(
         <>
-        <HomeContainer/>
            <NavBar/>
            <Content/>
+           <Members/>
+           <Contact/>
            
         </>
     );
