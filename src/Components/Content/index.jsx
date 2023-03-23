@@ -1,12 +1,16 @@
 import React from "react";
 import YouTube from "../Youtube";
-import { ContentWrapper, ContentText } from "./Content-styled";
+import { ContentContainer, ContentWrapper, TextWrapper, Title } from "./Content-styled";
 const Content = () => {
     return (
+        <ContentContainer>
+            <TextWrapper>
+                <Title/>
+            </TextWrapper>
             <ContentWrapper>
-                <ContentText>Test</ContentText>
                 <YouTube embedId="I7DpZPa3kYE"/>
             </ContentWrapper>
+        </ContentContainer>
             
     );
 };

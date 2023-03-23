@@ -116,6 +116,6 @@ export const NavBtnLink = styled.div`
   &:hover {
     transition: all 0.2s ease-in-out;
     background: #fff;
-    color: #01606;
+    color: black;
   }
 `;
