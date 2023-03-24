@@ -15,7 +15,7 @@ const Content = () => {
             <TwitterTimelineEmbed 
                 sourceType="profile"
                 screenName="WTPlayPodcast"
-                options={{height:600}}
+                
             />
             </TwitterWrapper>
         </ContentContainer>
