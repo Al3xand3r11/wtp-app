@@ -28,3 +28,7 @@ export const Title = styled.h1`
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
 `;
+
+export const TwitterWrapper = styled.div`
+align-items: right;
+`;

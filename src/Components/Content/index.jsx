@@ -1,6 +1,7 @@
 import React from "react";
 import YouTube from "../Youtube";
-import { ContentContainer, ContentWrapper, TextWrapper, Title } from "./Content-styled";
+import { ContentContainer, ContentWrapper, TextWrapper, Title, TwitterWrapper } from "./Content-styled";
+import { TwitterTweetEmbed, TwitterTimelineEmbed } from 'react-twitter-embed'
 const Content = () => {
     return (
         <ContentContainer>
@@ -10,6 +11,13 @@ const Content = () => {
             <ContentWrapper>
                 <YouTube embedId="OBtxymRja3E"/>
             </ContentWrapper>
+            <TwitterWrapper>
+            <TwitterTimelineEmbed 
+                sourceType="profile"
+                screenName="WTPlayPodcast"
+                options={{height:600}}
+            />
+            </TwitterWrapper>
         </ContentContainer>
             
     );
