@@ -8,7 +8,7 @@ const Content = () => {
                 <Title/>
             </TextWrapper>
             <ContentWrapper>
-                <YouTube embedId="I7DpZPa3kYE"/>
+                <YouTube embedId="OBtxymRja3E"/>
             </ContentWrapper>
         </ContentContainer>
             
