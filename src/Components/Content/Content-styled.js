@@ -3,16 +3,21 @@ import styled from 'styled-components';
 export const ContentContainer = styled.div`
   color: #ffff;
   height: 800px;
+  display: grid;
+  grid-auto-flow: row;
+  grid-template-columns: .5fr .5fr .5fr;
+  flex-direction: row;
+  padding-top: 100px;
 `;
 
 export const ContentWrapper = styled.div`
-margin-right: auto;
-margin-left: auto;
 display: grid;
-align-items: center;
-justify-content: center;
-position: absolute;
-padding: 0 24px;
+margin-top: 10px;
+margin-right: 200px;
+margin-bottom: 20px;
+padding-left: 50px;
+flex-direction: row;
+justify-content: space-evenly;
 `;
 
 export const TextWrapper = styled.div`
@@ -27,8 +32,4 @@ export const Title = styled.h1`
   font-size: 18px;
   line-height: 24px;
   color: ${({ darkText }) => (darkText ? "#010606" : "#fff")};
-`;
-
-export const TwitterWrapper = styled.div`
-align-items: right;
 `;
