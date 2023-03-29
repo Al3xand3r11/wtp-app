@@ -1,10 +1,14 @@
-import { ContactContainer, ImageBg } from "./Contact-styled";
-import image from "../../Images/image.jpeg";
+import { TextField } from "@mui/material";
+import { ContactContainer, ContactFormWrapper, StyledTextField} from "./Contact-styled";
 const Contact = () => {
     return (
-        <ContactContainer>
-            <ImageBg src={image}/>
-        </ContactContainer>
+            <ContactContainer> 
+            <ContactFormWrapper>
+            <TextField
+                defaultValue='Win'
+            />
+            </ContactFormWrapper>
+            </ContactContainer>
     );
 };
 
