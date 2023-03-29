@@ -1,6 +1,6 @@
 import React from "react";
 import YouTube from "../Youtube";
-import { ContentContainer, ContentWrapper, TextWrapper, Title, TwitterWrapper } from "./Content-styled";
+import { ContentContainer, ContentWrapper } from "./Content-styled";
 import {TwitterTimelineEmbed } from 'react-twitter-embed'
 const Content = () => {
     return (
