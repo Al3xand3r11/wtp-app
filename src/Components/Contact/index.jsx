@@ -1,13 +1,29 @@
-import { TextField } from "@mui/material";
+import { FormControl, TextField } from "@mui/material";
 import { ContactContainer, ContactFormWrapper, StyledTextField} from "./Contact-styled";
 const Contact = () => {
     return (
             <ContactContainer> 
             <ContactFormWrapper>
-            <TextField
-                defaultValue='Win'
+            <StyledTextField>
+                <FormControl variant="outlined">
+                <TextField sx={{bgcolor: 'grey', fontWeight: 'light'}}
+                defaultValue='First Name'
+                margin="normal"
             />
+            <TextField sx={{bgcolor: 'grey', fontWeight: 'light'}}
+                defaultValue='Last Name'
+                margin="normal"
+            />
+            <TextField sx={{bgcolor: 'grey', fontWeight: 'light'}}
+                defaultValue='Email'
+                margin="normal"
+            />
+                </FormControl>
+            
+            </StyledTextField>
             </ContactFormWrapper>
+            
+            
             </ContactContainer>
     );
 };

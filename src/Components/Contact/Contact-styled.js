@@ -1,4 +1,4 @@
-import { Box, TextField } from '@mui/material';
+import { Box} from '@mui/material';
 import {styled} from '@mui/system'; 
 import image from "../../Images/image.jpeg";
 export const ContactContainer = styled(Box)({
@@ -24,9 +24,15 @@ export const ContactFormWrapper = styled(Box)({
     
 })
 
-export const StyledTextField = styled(TextField)({
-    borderRadius: '25px',
+export const StyledTextField = styled(Box)({
     position: 'absolute',
+    top: '50%',
+    left: '50%',
+    transform: 'translate(-50%, -50%)',
+    borderRadius: '25px',
+    display: 'grid',
+    flexDirection: 'column',
+
 })
 
 ;
