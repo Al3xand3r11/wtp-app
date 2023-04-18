@@ -1,4 +1,4 @@
-import { Box} from '@mui/material';
+import { Box, Button} from '@mui/material';
 import {styled} from '@mui/system'; 
 import image from "../../Images/image.jpeg";
 export const ContactContainer = styled(Box)({
@@ -13,9 +13,9 @@ export const ContactFormWrapper = styled(Box)({
     height: 400,
     width: 800,
     alignItems: 'center',
-    backgroundColor: 'white',
+    backgroundColor: 'grey',
     backgroundPosition: 'center',
-    opacity: '.3',
+    opacity: '.7',
     position: 'absolute',
     top: '50%',
     left: '50%',
@@ -33,6 +33,12 @@ export const StyledTextField = styled(Box)({
     display: 'grid',
     flexDirection: 'column',
 
+})
+
+export const StyledButton = styled(Button)({
+
+    borderRadius: '10px',
+    background: 'black',
 })
 
 ;

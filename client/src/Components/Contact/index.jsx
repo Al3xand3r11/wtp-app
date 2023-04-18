@@ -1,5 +1,5 @@
 import { FormControl, TextField } from "@mui/material";
-import { ContactContainer, ContactFormWrapper, StyledTextField} from "./Contact-styled";
+import { ContactContainer, ContactFormWrapper, StyledButton, StyledTextField} from "./Contact-styled";
 const Contact = () => {
     return (
             <ContactContainer> 
@@ -18,9 +18,11 @@ const Contact = () => {
                 defaultValue='Email'
                 margin="normal"
             />
+            <StyledButton>Test</StyledButton>
                 </FormControl>
             
             </StyledTextField>
+            
             </ContactFormWrapper>
             
             
